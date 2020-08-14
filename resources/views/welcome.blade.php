@@ -36,10 +36,10 @@
                             @foreach($users as $user)
                             <tbody>
                                 <tr>
-                                    <th scope="row">1</th>
-                                    <td>{{$user->user_name}}</td>
-                                    <td>{{$user->email_address}}</td>
-                                    <td>{{$user->phone_number}}</td>
+                                    <th scope="row">{{ ($user->id) }}</th>
+                                    <td>{{ $user->user_name }}</td>
+                                    <td>{{ $user->email_address }}</td>
+                                    <td>{{ $user->phone_number }}</td>
                                     <td>
                                         <a href="{{url('user/edit/'.$user->id)}}">Edit</a>
                                         <a href="{{url('user/delete/'.$user->id)}}">Delete</a>
