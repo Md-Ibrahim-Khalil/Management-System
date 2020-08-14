@@ -19,3 +19,5 @@ In this Project there are few features added like-
                     HTML,CSS,Bootstrap
     Local Server:   Xampp
     Text Editor :   Visual Studio
+
+Operating System: Ubuntu 18.04
